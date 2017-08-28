@@ -1,0 +1,42 @@
+<PISI>
+    <Source>
+        <Name>telepathy-salut</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>LGPL-2.1</License>
+        <PartOf>network.im</PartOf>
+        <Summary xml:lang="en">Salut is a link-local XMPP (XEP-0174) connection manager for the Telepathy framework</Summary>
+        <Description xml:lang="en">Salut is a link-local XMPP (XEP-0174) connection manager for the Telepathy framework
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>telepathy-salut</Name>
+        <Summary xml:lang="en">Salut is a link-local XMPP (XEP-0174) connection manager for the Telepathy framework</Summary>
+        <Description xml:lang="en">Salut is a link-local XMPP (XEP-0174) connection manager for the Telepathy framework
+</Description>
+        <PartOf>network.im</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/telepathy-salut/telepathy-salut</Path>
+            <Path fileType="library">/usr/lib64/telepathy/salut-0/lib/libsalut-plugins-0.8.1.so</Path>
+            <Path fileType="library">/usr/lib64/telepathy/salut-0/lib/libsalut-plugins.so</Path>
+            <Path fileType="library">/usr/lib64/telepathy/salut-0/lib/libwocky-telepathy-salut-0.8.1.so</Path>
+            <Path fileType="library">/usr/lib64/telepathy/salut-0/lib/libwocky.so</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.salut.service</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="data">/usr/share/telepathy/managers/salut.manager</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-08-28</Date>
+            <Version>0.8.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,21 @@
+name       : telepathy-salut
+version    : 0.8.1
+release    : 1
+source     :
+    - http://telepathy.freedesktop.org/releases/telepathy-salut/telepathy-salut-0.8.1.tar.gz : 70b9108ac8b511b7688e1b580de4ddb8981603c3cbde01f287ef8f9cb708618e
+license    : LGPL-2.1
+component  : network.im
+summary    : Salut is a link-local XMPP (XEP-0174) connection manager for the Telepathy framework
+description: |
+    Salut is a link-local XMPP (XEP-0174) connection manager for the Telepathy framework
+builddeps  :
+    - pkgconfig(avahi-gobject)
+    - pkgconfig(libsoup-2.4)
+    - pkgconfig(sqlite3)
+    - pkgconfig(telepathy-glib)
+setup      : |
+    %configure --disable-static --enable-avahi-tests=no
+build      : |
+    %make
+install    : |
+    %make_install
