@@ -31,8 +31,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2017-08-28</Date>
+        <Update release="2">
+            <Date>2017-10-07</Date>
             <Version>0.8.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
