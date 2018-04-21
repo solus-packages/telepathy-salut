@@ -1,9 +1,9 @@
 name       : telepathy-salut
 version    : 0.8.1
-release    : 2
+release    : 3
 source     :
     - http://telepathy.freedesktop.org/releases/telepathy-salut/telepathy-salut-0.8.1.tar.gz : 70b9108ac8b511b7688e1b580de4ddb8981603c3cbde01f287ef8f9cb708618e
-license    : LGPL-2.1
+license    : LGPL-2.1-only
 component  : network.im
 summary    : Salut is a link-local XMPP (XEP-0174) connection manager for the Telepathy
     framework
